@@ -1,0 +1,36 @@
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8505
+  Network URL: http://192.168.0.242:8505
+
+  For better performance, install the Watchdog module:
+
+  $ xcode-select --install
+  $ pip install watchdog
+            
+2026-03-26 19:22:37.406 An update to the [server] config option section was detected. To have these changes be reflected, please restart streamlit.
+2026-03-26 19:22:37.419 
+Warning: the config option 'server.enableCORS=false' is not compatible with
+'server.enableXsrfProtection=true'.
+As a result, 'server.enableCORS' is being overridden to 'true'.
+
+More information:
+In order to protect against CSRF attacks, we send a cookie with each request.
+To do so, we must specify allowable origins, which places a restriction on
+cross-origin resource sharing.
+
+If cross origin resource sharing is required, please disable server.enableXsrfProtection.
+            
+2026-03-26 19:24:20.097 304 GET / (::1) 3.61ms
+2026-03-26 19:24:20.233 304 GET /_stcore/health (::1) 11.50ms
+2026-03-26 19:24:20.252 304 GET /_stcore/host-config (::1) 4.49ms
+2026-03-26 19:24:20.362 101 GET /_stcore/stream (::1) 5.42ms
+2026-03-26 19:25:35.750 304 GET / (::1) 0.73ms
+2026-03-26 19:25:35.863 304 GET /_stcore/health (::1) 0.54ms
+2026-03-26 19:25:35.882 304 GET /_stcore/host-config (::1) 0.80ms
+2026-03-26 19:25:35.904 101 GET /_stcore/stream (::1) 0.99ms
+2026-03-26 19:32:57.847 304 GET / (::1) 14.70ms
+2026-03-26 19:32:58.021 304 GET /_stcore/health (::1) 3.50ms
+2026-03-26 19:32:58.027 304 GET /_stcore/host-config (::1) 2.13ms
+2026-03-26 19:32:58.079 101 GET /_stcore/stream (::1) 4.37ms
